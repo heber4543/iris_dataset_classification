@@ -23,4 +23,4 @@ if st.button("Predict"):
     input_data = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
     prediction = model.predict(input_data)
     pred_class = iris.target_names[prediction[0]]
-    st.write(f"The flower is:: **{pred_class}**")
+    st.write(f"The flower is: **{pred_class}**")
