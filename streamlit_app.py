@@ -13,7 +13,7 @@ model = joblib.load('Model/iris_model.pkl')
 st.title("Iris flower classifier with logistic regression")
 
 # indicaciones
-st.markdown("# This interface helps implement the linear regression model to predict the flower species. The model was trained with the Iris dataset. Whenever you are asked for information, you will be informed of the minimum and maximum values you can enter.")
+st.markdown("########### This interface helps implement the linear regression model to predict the flower species. The model was trained with the Iris dataset. Whenever you are asked for information, you will be informed of the minimum and maximum values you can enter.")
 
 # entradas de usuario
 
