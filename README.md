@@ -1,19 +1,19 @@
-# 🎈 Blank app template
+# 
 
-A simple Streamlit app template for you to modify!
+This is a project for the Machine Learning course in the Master's program in Computer Engineering
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+### Acces
+Click [here](https://iris-dataset-classification17.streamlit.app/) to access the app
 
-### How to run it on your own machine
+### Dataset
+To load the Iris dataset, use the following code:
 
-1. Install the requirements
+```python
+from sklearn.datasets import load_iris
+iris = load_iris()
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+### Data exploration and model training and test
+The source code where the dataset was explored, the data was prepared, and the model was developed can be found in the `Model` directory, in the file named `Proyect.py`. In the `Model`, there are also other file: `iris_model.pkl`, which are the pipeline and the best model files to be used in the app.
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+### APP
+You will find two files: `requirements.txt` and `streamlit_app.py`. The first contains the libraries required to run the app. The second is the app code (model implementation and interface).
